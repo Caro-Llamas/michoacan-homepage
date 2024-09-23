@@ -110,7 +110,7 @@ img {
     margin-top: 0;
 }
 
-@media (min-width: 900px){
+@media (max-width: 900px){
     .main-element-img{
         padding: 2rem;
         width: 70%;
@@ -196,7 +196,7 @@ img {
     }
 }
 
-@media (min-width: 900px){
+@media (max-width: 900px){
     .guide-card{
         width: 50%;
     }
