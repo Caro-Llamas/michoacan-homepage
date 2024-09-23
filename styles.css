@@ -156,7 +156,6 @@ img {
 
 @media (max-width: 450px){
     .main-content{
-        display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
