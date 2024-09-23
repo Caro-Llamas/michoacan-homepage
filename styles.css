@@ -110,33 +110,6 @@ img {
     margin-top: 0;
 }
 
-@media (max-width: 900px){
-    .main-element-img{
-        padding: 2rem;
-        width: 70%;
-    }
-    .main-element-img:hover{
-        width: 80%;
-    }
-}
-
-@media(max-width: 450px){
-    .main-content{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .main-element{
-        width: 70%;
-    }
-    
-    .main-element-img{
-        width: 15rem;
-    }
-}
-
 /* Guide Section */
 .guide{
     background-color: var(--light-color);
@@ -182,6 +155,21 @@ img {
 }
 
 @media (max-width: 450px){
+    .main-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .main-element{
+        width: 70%;
+    }
+    
+    .main-element-img{
+        width: 15rem;
+    }
+    
     .guide-card{
         flex-direction: column-reverse;
         width: 80%;
@@ -197,6 +185,14 @@ img {
 }
 
 @media (max-width: 900px){
+    .main-element-img{
+        padding: 2rem;
+        width: 70%;
+    }
+    .main-element-img:hover{
+        width: 80%;
+    }
+    
     .guide-card{
         width: 50%;
     }
