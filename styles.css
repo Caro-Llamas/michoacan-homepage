@@ -154,6 +154,25 @@ img {
     font-size: 1.6rem;
 }
 
+@media (max-width: 900px){
+    .main-element-img{
+        padding: 2rem;
+        width: 70%;
+    }
+    
+    .guide-card{
+        width: 50%;
+    }
+    .card-content{
+        padding-left: 1.6rem;
+        width: 60%;
+    }
+    
+    .card-avatar{
+        width: 30%;
+    }
+}
+
 @media (max-width: 450px){
     .main-content{
         flex-direction: column;
@@ -183,21 +202,4 @@ img {
     }
 }
 
-@media (max-width: 900px){
-    .main-element-img{
-        padding: 2rem;
-        width: 70%;
-    }
-    
-    .guide-card{
-        width: 50%;
-    }
-    .card-content{
-        padding-left: 1.6rem;
-        width: 60%;
-    }
-    
-    .card-avatar{
-        width: 30%;
-    }
-}
+
