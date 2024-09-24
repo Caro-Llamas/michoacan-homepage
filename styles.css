@@ -113,7 +113,7 @@ body {
 
 .guide-card{
     background-color: var(--light-yellow);
-    width: 60%;
+    width: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
