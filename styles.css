@@ -175,9 +175,8 @@ body {
         justify-content: center;
         align-items: center;
     }
-    
     .main-element{
-        width: 70%;
+        width: 100%;
     }
     
     .main-element-img{
@@ -190,11 +189,15 @@ body {
     }
     
     .card-content{
-        width: 80%;   
+        width: 100%;  
+    }
+
+    .card-message{
+        padding: 0 2rem;
     }
     
     .card-avatar{
-        width: 80%;
+        width: 90%;
     }
 }
 
