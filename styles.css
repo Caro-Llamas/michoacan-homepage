@@ -125,8 +125,8 @@ body {
 
 .card-avatar{
     border-radius: 1rem;
-    height: fit-content;
-    width: 55%;
+    height: 100%;
+    width: 50%;
 }
 
 .card-content{
@@ -150,7 +150,7 @@ body {
     font-size: 1.6rem;
 }
 
-@media(max-width: 768px){
+@media(max-width: 950px){
     .main-element-img{
         padding: 2rem;
         width: 70%;
